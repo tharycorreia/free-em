@@ -1,0 +1,92 @@
+.card1 {
+    background: #B1DCDA;
+}
+
+.card2,
+.card4 {
+    background: #fff;
+}
+
+.card3 {
+    background: #EECCCD;
+}
+
+.card5 {
+    background: #B1DCDA;
+}
+
+.card1 .titulo-principal {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.75rem;
+}
+
+.card1 .titulo-secundario {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card2 .titulo-principal {
+    font-family: 'Kalam', cursive;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card2 h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card2 button,
+.card5 button {
+    color: #fff;
+    font-weight: bold;
+    background: #000;
+    border-radius: 0;
+
+}
+
+.card2 button:hover,
+.card5 button:hover {
+    background: #EECCCD;
+    color: #fff;
+}
+
+.motivo {
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+}
+
+.titulo-motivo {
+    font-family: Kalam;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contexto-motivo {
+    font-family: Work Sans;
+}
+
+.card5 p,
+.text-card6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: -9px;
+    border-top: 1.5px solid #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    margin-right: 5px;
+}

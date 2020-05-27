@@ -1,36 +1,45 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import github from '../img/github.svg'
+import instagram from '../img/instagram.svg'
+import facebook from '../img/facebook.svg'
 import linkedin from '../img/linkedin.svg'
 
-
-function Soma(props) {
-    return (
-        <div className="footer">
-            <a href="https://www.linkedin.com/in/tharycorreia/" target='_blank'>
-                <img src={linkedin} alt="linkedin" height='35px' width='35px' />
-            </a>
-            <a href="https://github.com/tharycorreia" className='github' target='_blank'>
-                <img src={github} alt="github" height='35px' width='35px' />
-            </a>
+function Footer(props) {
+  return (
+    <div >
+      <div className='container pb-4'>
+        <div className="d-flex justify-content-center p-4">
+          <h2 className='title-footer'>Acompanhe a Free'em Lab</h2>
         </div>
-        
-    )
+        <div className='d-flex row'>
+          <h5 className="col-sm-12 col-md-4 justify-content-center d-flex">
+            <a href="https://www.instagram.com/free.em.lab/">
+              <img className='logo' src={instagram} alt='Logo Instagram' />
+              Instagram
+            </a>
+          </h5>
+          <h5 className="col-sm-12 col-md-4 justify-content-center d-flex">
+            <a href="https://www.facebook.com/Freeem-2241022062603344">
+              <img className='logo' src={facebook} alt='Logo Facebook' />
+              Facebook
+            </a>
+          </h5>
+          <h5 className="col-sm-12 col-md-4 justify-content-center d-flex">
+            <a href="https://www.linkedin.com/company/free-em/">
+              <img className='logo' src={linkedin} alt='Logo Linkedin' />
+              Linkedin
+            </a>
+          </h5>
+        </div>
+      </div>
+
+      <div className="d-flex justify-content-center footer-bottom">
+        <p className='pt-3'>Feito com amor, no Brasil. Free'em Lab 	&reg;</p>
+      </div>
+    </div>
+
+
+  )
 }
 
-function mapStateToProps(state) {
-    return {
-        numeros: state.numeros
-    }
-}
+export default Footer
 
-export default connect(mapStateToProps)(Soma)
-
-    /*<Card title='Soma de números' blue>
-            <div>
-                <span>
-                    <span>Resultado:</span>
-                    <strong>{props.numeros.min + props.numeros.max}</strong>
-                </span>
-            </div>
-    </Card>*/

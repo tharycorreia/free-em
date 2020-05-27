@@ -1,18 +1,25 @@
-import './Menu.css'
+
 import React from 'react'
 import { connect } from 'react-redux'
 
 import { alteraItemMenu } from '../store/actions/menuActions'
+import logo from '../img/logo.png'
 
 function Menu(props) {
 
   return (
-    <div className='header'>
-      <button className='menu-item' onClick={() => props.alteraMenu('inicio')}>Início</button>
-      <button className='menu-item' onClick={() => props.alteraMenu('quemSou')}>Quem sou</button>
-      <button className='menu-item' onClick={() => props.alteraMenu('projetos')}>Projetos</button>
-      <button className='menu-item' onClick={() => props.alteraMenu('contato')}>Contato</button>
+    <div className='container d-inline-flex pt-3 pb-4'>
+      <div className='col-sm-12 col-md-4 pt-2'>
+      <img src={logo} className="img-fluid" alt="Free'em Lab" />
+      </div>
+      <ul className=" col-sm-12 col-md-8 nav justify-content-end">
+        <li className="nav-item pt-2">
+          <a className="btn  btn-sm btn-menu" href="https://forms.gle/jkEgEuLkDtWdgKk2A" role="button">Participe</a>
+        </li>
+      </ul>
     </div>
+
+
   )
 }
 

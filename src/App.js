@@ -1,4 +1,5 @@
 import React from 'react';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Conteudo from './components/Conteudo'
 import Footer from './components/Footer'
@@ -12,7 +13,10 @@ function App() {
   <Menu /> {/* menu */}
       
        <Conteudo />  {/* conteudo */}
+       <div className='footer'>
         <Footer /> {/* rodape */}       
+
+       </div>
       
     </div>
   );
