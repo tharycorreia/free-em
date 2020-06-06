@@ -7,12 +7,13 @@ import Card3 from './LadingPageComponents/Card3'
 import Card4 from './LadingPageComponents/Card4'
 import Card5 from './LadingPageComponents/Card5'
 import Card6 from './LadingPageComponents/Card6'
+import Footer from './Footer'
 
 function Principal(props) {
   return (
-    <div className="container-flex">
+    <div className="container-flex principal">
       <div className='card1'>
-        <Card1 />
+      <Card1 />
       </div>
       <div className='card2'>
         <Card2 />
@@ -29,6 +30,7 @@ function Principal(props) {
       <div className='card6'>
         <Card6 />
       </div>
+      <Footer />
     </div>
 
 

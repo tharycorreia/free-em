@@ -1,11 +1,9 @@
 .App {
   display: flex;
+  height: 100%;
   flex-direction: column;
 }
 
-.footer {
-  background: #E3E5DA;
-}
 
 .footer-bottom {
   background: #000;
@@ -19,6 +17,8 @@
   padding: 3px 20px;
   font-weight: bold;
   border-radius: 0;
+  font-family: 'Work Sans', sans-serif;
+
 }
 
 .btn-menu:hover {
@@ -34,4 +34,8 @@
 a:hover {
   text-decoration: none;
   color: #EECCCD;
+}
+
+#root {
+  height: 100%;
 }

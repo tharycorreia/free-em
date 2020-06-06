@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import Principal from './Principal'
 import Contato from './Contato'
+import '../styles/LadingPage.css'
 
 function Conteudo(props) {
   const menuAtual = props.menu.menu
@@ -11,6 +12,7 @@ function Conteudo(props) {
       {menuAtual === 'inicio' && <Principal />}
       {menuAtual === 'contato' && <Contato />}
     </div>
+
   )
 }
 

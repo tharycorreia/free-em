@@ -1,5 +1,10 @@
 .card1 {
     background: #B1DCDA;
+    height: 82%;
+}
+
+.card-height {
+    height: 100%;
 }
 
 .card2,
@@ -13,6 +18,7 @@
 
 .card5 {
     background: #B1DCDA;
+    height: 95%;
 }
 
 .card1 .titulo-principal {
@@ -23,6 +29,14 @@
 .card1 .titulo-secundario {
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
+}
+
+.font1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card2 {
+    height: 85%;
 }
 
 .card2 .titulo-principal {
@@ -38,7 +52,7 @@
 
 .card2 button,
 .card5 button {
-    color: #fff;
+    color: #EECCCD;
     font-weight: bold;
     background: #000;
     border-radius: 0;
@@ -89,4 +103,86 @@ a {
 
 .logo {
     margin-right: 5px;
+}
+
+.principal {
+    height: 100%;
+}
+
+.conteudo {
+    height: 100%;
+}
+
+.card4 {
+    height: 100%;
+}
+
+.card6 {
+    height: 87%;
+}
+
+.footer {
+    background: #E3E5DA;
+}
+
+.bg-image {
+    background-image: url('../img/corpos1.svg');
+    background-repeat: no-repeat;
+    float: right;
+    background-size: contain;
+    background-position: bottom;
+    padding: 0;
+}
+
+.title {
+    margin-left: -35%;
+}
+
+@media (max-width: 1024px) {
+    .title {
+        margin-left: 27px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .card2,
+    .card6 {
+        height: 95%;
+    }
+    #linkedin {
+        margin-left: -6px;
+    }
+
+    #facebook {
+        margin-left: -2px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .card1,
+    .card5 {
+        height: 100%;
+    }
+
+    .card2 {
+        height: 110%;
+    }
+
+    .card5 p,
+    .text-card6 {
+        text-align: center;
+    }
+
+   
+}
+
+@media (max-width: 320px) {
+
+    .card2,
+    .card5,
+    .card6 {
+        height: 130%;
+    }
 }
