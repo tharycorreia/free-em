@@ -7,5 +7,6 @@ Foi utilizado o conceito de componentes do React e Bootstrap para o layout desta
 Redux já está configurado no projeto visando o crescimento do mesmo. 
 
 Está sendo utilizado o firebase para hospedagem do código. 
-Pode ser acessado pelo link https://freeem-8aacf.firebaseapp.com/
+Pode ser acessado pelo link https://freeem-8aacf.firebaseapp.com/ ou www.freeemlab.com
 
+<img src="https://github.com/tharycorreia/imgs/blob/master/freemv2.png?raw=true" />
