@@ -14,7 +14,7 @@ function Menu(props) {
       </div>
       <ul className=" col-sm-12 col-md-8 nav justify-content-end">
         <li className="nav-item pt-2">
-          <a className="btn pt-2 pb-2 pl-4 pr-4  btn-sm btn-menu" href="https://forms.gle/jkEgEuLkDtWdgKk2A" role="button">Participe</a>
+          <a className="btn pt-2 pb-2 pl-4 pr-4  btn-sm btn-menu" href="https://forms.gle/jkEgEuLkDtWdgKk2A" role="button" target="_blank">Participe</a>
         </li>
       </ul>
     </div>

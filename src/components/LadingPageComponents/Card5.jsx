@@ -13,7 +13,7 @@ function Card5(props) {
       <div className='align-self-center'>
         <Motivo numMotivo='3' titulo={title} contexto={contexto} />
         <div className="d-flex justify-content-center pt-5">
-          <a href="https://forms.gle/jkEgEuLkDtWdgKk2A">
+          <a href="https://forms.gle/jkEgEuLkDtWdgKk2A" target="_blank">
             <button className='btn pt-3 pb-3 pl-5 pr-5 font1'>Faça parte</button>
           </a>
         </div>

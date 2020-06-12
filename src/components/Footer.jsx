@@ -13,19 +13,19 @@ function Footer() {
         </div>
         <div className='d-flex row p-3 pt-4'>
           <h5 className="col-sm-12 col-md-4 justify-content-center d-flex">
-            <a href="https://www.instagram.com/free.em.lab/">
+            <a href="https://www.instagram.com/free.em.lab/" target="_blank">
               <img className='logo' src={instagram} alt='Logo Instagram' />
               Instagram
             </a>
           </h5>
           <h5 id="facebook" className="col-sm-12 col-md-4 justify-content-center d-flex">
-            <a href="https://www.facebook.com/Freeem-2241022062603344">
+            <a href="https://www.facebook.com/Freeem-2241022062603344" target="_blank">
               <img className='logo' src={facebook} alt='Logo Facebook' />
               Facebook
             </a>
           </h5>
           <h5 id="linkedin" className="col-sm-12 col-md-4 justify-content-center d-flex">
-            <a href="https://www.linkedin.com/company/free-em/">
+            <a href="https://www.linkedin.com/company/free-em/" target="_blank">
               <img className='logo' src={linkedin} alt='Logo Linkedin' />
               Linkedin
             </a>

@@ -19,7 +19,7 @@ function Card2(props) {
             <h5>| 02 | Insira suas medidas</h5>
             <hr></hr>
             <p className='pt-1'>
-              Com uma fita métrica, vamos te guiar num processo para realizar 11 medidas diferentes do seu corpo.
+              Com uma fita métrica, vamos te guiar num processo para realizar 9 medidas diferentes do seu corpo.
 					  </p>
           </div>
           <div className="col-sm-12 col-md-4">
@@ -31,7 +31,7 @@ function Card2(props) {
           </div>
         </div>
         <div className="d-flex justify-content-center pt-5 ">
-          <a href="https://forms.gle/jkEgEuLkDtWdgKk2A">
+          <a href="https://forms.gle/jkEgEuLkDtWdgKk2A" target="_blank">
             <button className='btn pt-3 pb-3 pl-5 pr-5 font1'>Participe da Revolução</button>
           </a>
         </div>
