@@ -56,7 +56,6 @@
     font-weight: bold;
     background: #000;
     border-radius: 0;
-
 }
 
 .card2 button:hover,
@@ -128,28 +127,36 @@ a {
 .bg-image {
     background-image: url('../img/corpos1.svg');
     background-repeat: no-repeat;
-    float: right;
+    /*float: right;*/
     background-size: contain;
     background-position: bottom;
     padding: 0;
 }
 
-.title {
-    margin-left: -32%;
-}
 
 @media (max-width: 1024px) {
+    .card1 {
+        height: 100%;
+    }
+
     .title {
         margin-left: 27px;
     }
 }
 
 @media (max-width: 414px) {
+    .card1 {
+        height: 105%;
+    }
 
-    .card2,
-    .card6 {
+    .card2 {
         height: 95%;
     }
+
+    .card6 {
+        height: 130%;
+    }
+
     #linkedin {
         margin-left: -6px;
     }
@@ -160,22 +167,24 @@ a {
 }
 
 @media (max-width: 375px) {
+    .card1 {
+        height: 115%;
+    }
 
-    .card1,
     .card5 {
         height: 100%;
     }
 
-    .card2 {
-        height: 110%;
+    .card2,
+    .card6,
+    .card5 {
+        height: 125%;
     }
 
     .card5 p,
     .text-card6 {
         text-align: center;
     }
-
-   
 }
 
 @media (max-width: 320px) {
