@@ -146,15 +146,15 @@ a {
 
 @media (max-width: 414px) {
     .card1 {
-        height: 105%;
+        height: 120%;
     }
 
     .card2 {
-        height: 95%;
+        height: 110%;
     }
 
     .card6 {
-        height: 130%;
+        height: 150%;
     }
 
     #linkedin {
@@ -168,7 +168,7 @@ a {
 
 @media (max-width: 375px) {
     .card1 {
-        height: 115%;
+        height: 130%;
     }
 
     .card5 {
@@ -176,15 +176,23 @@ a {
     }
 
     .card2,
-    .card6,
     .card5 {
         height: 125%;
+    }
+
+    .card6 {
+        height: 145%;
     }
 
     .card5 p,
     .text-card6 {
         text-align: center;
     }
+
+    .conteudo {
+        margin-top: 9%;
+    }
+    
 }
 
 @media (max-width: 320px) {

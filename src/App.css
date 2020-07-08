@@ -39,3 +39,7 @@ a:hover {
 #root {
   height: 100%;
 }
+
+.menu {
+  height: 13%;
+}

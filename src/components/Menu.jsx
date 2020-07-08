@@ -8,11 +8,16 @@ import logo from '../img/logo.png'
 function Menu(props) {
 
   return (
-    <div className='container d-inline-flex pt-3 pb-4'>
+    <div className='container d-inline-flex pt-3 pb-4 menu'>
       <div className='col-sm-12 col-md-4 pt-2'>
-      <img src={logo} className="img-fluid" alt="Free'em Lab" />
+        <img src={logo} className="img-fluid" alt="Free'em Lab" />
       </div>
       <ul className=" col-sm-12 col-md-8 nav justify-content-end">
+        <li className="nav-item pt-3 pr-3 font-weight-bold">
+          <a href="https://blog.userockfella.com.br/"  target="_blank">
+            BLOG
+          </a>
+        </li>
         <li className="nav-item pt-2">
           <a className="btn pt-2 pb-2 pl-4 pr-4  btn-sm btn-menu" href="https://forms.gle/jkEgEuLkDtWdgKk2A" role="button" target="_blank">Participe</a>
         </li>

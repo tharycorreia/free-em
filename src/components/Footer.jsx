@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer'>
      <div className='container p-5 font1'>
         <div className="d-flex justify-content-center p-4">
-          <h2 className='title-footer'>Acompanhe a Free'em Lab</h2>
+          <h2 className='title-footer text-center'>Acompanhe a Free'em Lab</h2>
         </div>
         <div className='d-flex row p-3 pt-4'>
           <h5 className="col-sm-12 col-md-4 justify-content-center d-flex">

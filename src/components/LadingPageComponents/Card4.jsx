@@ -7,8 +7,12 @@ function Card4(props) {
   return (
     <div className='container pb-4 card-height d-flex'>
       <div className='align-self-center'>
-      <Motivo numMotivo='2' titulo={title} contexto={contexto} />
+        <Motivo numMotivo='2' titulo={title} contexto={contexto} />
+        <h5 className='d-flex justify-content-center pb-5 text-center motivo'>
+          #EXPERIMENTESE
+      </h5>
       </div>
+
     </div>
   )
 }
